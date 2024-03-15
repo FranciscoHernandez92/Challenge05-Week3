@@ -1,3 +1,49 @@
-*{
+* {
   box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+header {
+  padding: 3rem;
+  background-color: #203466;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-inline: 25rem;
+  padding-right: 4.5rem;
+  h1 {
+    position: relative;
+    left: 1rem;
+  }
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  background-color: #3266ac;
+  color: #f2c406;
+  border-radius: 1rem;
+  padding: 1rem;
+  &:hover {
+    background-color: #f2c406;
+    color: #3266ac;
+  }
+}
+nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 700;
+  }
+}
+footer {
+  color: #f2c406;
+  background-color: #203466;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-inline: 25rem;
 }
