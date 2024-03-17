@@ -59,7 +59,7 @@ main {
   box-shadow: 3rem;
 }
 body {
-  background-image: url('../public/background.png');
+  background-image: url('../background.png');
 }
 .pokebox {
   border: 2px solid #f2c406;
@@ -71,7 +71,7 @@ body {
     color: #f2c406;
   }
   &:hover {
-    background-image: url('../public/battle\ background\ 1.jfif');
+    background-image: url('../battle\ background\ 1.jfif');
     border-color: #203466;
     a {
       color: #3266ac;
