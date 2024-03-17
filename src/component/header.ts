@@ -15,9 +15,9 @@ export class Header extends Component {
       <h1 class="header__title">${this.title}</h1>
         <nav>
           <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./pokedex.html">Pokedex</a></li>
-            <li><a href="#">Favourites</a></li>
+            <li><a href="./index.html" class = 'poke-nav'>Home</a></li>
+            <li><a href="./pokedex.html" class = 'poke-nav'>Pokedex</a></li>
+            <li><a href="#" class = 'poke-nav'>Favourites</a></li>
           </ul>
         </nav>
     </header>
