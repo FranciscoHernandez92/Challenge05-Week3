@@ -20,7 +20,7 @@ header {
 ul {
   list-style: none;
 }
-a {
+.poke-nav {
   text-decoration: none;
   background-color: #3266ac;
   color: #f2c406;
@@ -46,4 +46,35 @@ footer {
   border-radius: 1rem;
   padding: 1rem;
   margin-inline: 25rem;
+  position: relative;
+  top: 55rem;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-inline: 5rem;
+  top: 22rem;
+  font-weight: bold;
+  box-shadow: 3rem;
+}
+body {
+  background-image: url('../public/background.png');
+}
+.pokebox {
+  border: 2px solid #f2c406;
+  background-color: #203466;
+  border-radius: 1rem;
+  a {
+    text-decoration: none;
+    padding: 4rem;
+    color: #f2c406;
+  }
+  &:hover {
+    background-image: url('../public/battle\ background\ 1.jfif');
+    border-color: #203466;
+    a {
+      color: #3266ac;
+    }
+  }
 }
