@@ -2,7 +2,7 @@ import { type Pokemon } from './poke-type';
 
 export const fetchPokemon = () => {
   const urlPokemon = 'https://pokeapi.co/api/v2/pokemon/';
-  const container = document.querySelector('main');
+  const container = document.querySelector('main')!;
 
   fetch(urlPokemon)
     .then(async (res) => res.json())
